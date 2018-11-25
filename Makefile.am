@@ -209,3 +209,7 @@ endif
 if ENABLE_MODULE_SURJECTIONPROOF
 include src/modules/surjection/Makefile.am.include
 endif
+
+if ENABLE_MODULE_POINTS
+include src/modules/points/Makefile.am.include
+endif
